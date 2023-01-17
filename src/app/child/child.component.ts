@@ -20,5 +20,4 @@ export class ChildComponent implements OnInit {
     this.itemNameEmitter.emit(this.itemName);
     this.itemName = '';
   }
-
 }

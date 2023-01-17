@@ -1,5 +1,11 @@
 <div style="text-align:center">
+  <!-- The important part of the POC. When an event is emitted via itemNameForChild, the onAddedItem is called -->
   <app-child (itemNameFromChild)="onAddedItem($event)"></app-child>
+
+  <h2>On Parent Component</h2>
   <p *ngFor="let i of itemList">{{i}}</p>
 </div>
 
+<div style="text-align:center">
+  <h3>www.turreta.com</h3>
+</div>

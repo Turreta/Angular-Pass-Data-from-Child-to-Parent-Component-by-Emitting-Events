@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'child2parentcomp';
 
-  itemList = [];
+  itemList: string[] = [];
 
   onAddedItem(item: string) {
     this.itemList.push(item);
